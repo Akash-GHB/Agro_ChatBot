@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Send, Image, Mic, History, Users, BookOpen, Phone, Settings, Bell } from "lucide-react";
-
+//akash chummma
 function App() {
   const [query, setQuery] = useState("");
   const [responses, setResponses] = useState([
