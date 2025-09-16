@@ -10,7 +10,7 @@ const Sidebar = () => {
       </div>
       <ul className="w-full space-y-2">
         <li>
-          <Link to="/ask-query" className="block p-3 text-gray-700 hover:bg-gray-200 rounded-md transition duration-150 ease-in-out">
+          <Link to="/" className="block p-3 text-gray-700 hover:bg-gray-200 rounded-md transition duration-150 ease-in-out">
             Ask Query
           </Link>
         </li>
