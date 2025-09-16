@@ -10,7 +10,7 @@ function App() {
   const [responses, setResponses] = useState([
     {
       id: 1,
-      location: "Kottayamm",
+      location: "Kottayam",
       crop: "Rice",
       time: "9/13/2025, 9:19:15 PM",
       question: "എന്തിന് വെള്ളത്തിൽ ഇലകൾ മഞ്ഞളിക്കുന്നു, എന്തു ചെയ്യണം?",
