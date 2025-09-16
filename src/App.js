@@ -1,6 +1,10 @@
 import React, { useState } from "react";
 import { Send, Image, Mic, History, Users, BookOpen, Phone, Settings, Bell } from "lucide-react";
+<<<<<<< HEAD
 
+=======
+//
+>>>>>>> d3f212952d3fa893e6db2b4815e87e39bb035787
 function App() {
   const [query, setQuery] = useState("");
   const [responses, setResponses] = useState([
