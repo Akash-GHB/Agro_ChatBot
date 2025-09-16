@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import { Send, Image, Mic, History, Users, BookOpen, Phone, Settings, Bell } from "lucide-react";
-//akash chummma
+
 function App() {
   const [query, setQuery] = useState("");
   const [responses, setResponses] = useState([
     {
       id: 1,
-      location: "Kottayam",
+      location: "Kottayamm",
       crop: "Rice",
       time: "9/13/2025, 9:19:15 PM",
       question: "എന്തിന് വെള്ളത്തിൽ ഇലകൾ മഞ്ഞളിക്കുന്നു, എന്തു ചെയ്യണം?",
