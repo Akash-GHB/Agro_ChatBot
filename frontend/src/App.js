@@ -10,7 +10,6 @@ import Resources from './components/Resources/Resources.js';
 import EmergencyContacts from './components/EmergencyContacts/EmergencyContacts.js';
 import Settings from './components/Settings/Settings.js';
 import './index.css';
-
 function App() {
   const [queries, setQueries] = useState([]);
   const [users, setUsers] = useState([]); // State to store signed-up users
