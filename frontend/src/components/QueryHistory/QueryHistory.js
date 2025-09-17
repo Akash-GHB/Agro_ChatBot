@@ -1,6 +1,20 @@
 import React from 'react';
 
-const QueryHistory = ({ queries }) => {
+// Dummy queries data
+const dummyQueries = [
+  {
+    id: 1,
+    question: "How do I improve soil fertility?",
+    response: "Use organic compost and rotate crops regularly."
+  },
+  {
+    id: 2,
+    question: "What is the best time to plant rice?",
+    response: "The best time is during the early monsoon season."
+  }
+];
+
+const QueryHistory = ({ queries = dummyQueries }) => {
   return (
     <div className="max-w-3xl mx-auto text-left">
       <h2 className="text-2xl font-bold mb-4 text-center">Query History</h2>
