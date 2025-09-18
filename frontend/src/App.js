@@ -13,7 +13,7 @@ import { useUserStore } from './stores/useUserStore.js'; // <-- Corrected path
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import './index.css';
-
+import Whether from './components/whether/Whether.js';
 // A private route component to wrap protected routes
 const PrivateRoute = ({ children }) => {
     const { user, loading, checkAuth } = useUserStore();
@@ -73,6 +73,7 @@ function App() {
                                             <Route path="/resources" element={<Resources />} />
                                             <Route path="/emergency-contacts" element={<EmergencyContacts />} />
                                             <Route path="/settings" element={<Settings />} />
+                                            <Route path="/whether" element={<Whether />} />
                                         </Routes>
                                     </div>
                                 </>
